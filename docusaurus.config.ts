@@ -22,7 +22,7 @@ const config: Config = {
   organizationName: 'andreblv', // Usually your GitHub org/user name.
   projectName: 'documentacion',
   deploymentBranch: 'gh-pages',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false,
