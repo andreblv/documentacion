@@ -54,32 +54,50 @@ Su propósito es obtener información detallada de un cliente incluyendo documen
 >
 </Heading>
 
-<details
-  style={{}}
-  className={"openapi-markdown__details"}
-  data-collapsed={false}
-  open={true}
+<MimeTabs
+  className={"openapi-tabs__mime"}
+  schemaType={"request"}
 >
-  <summary
-    style={{}}
-    className={"openapi-markdown__details-summary"}
+  <TabItem
+    label={"application/json"}
+    value={"application/json"}
   >
-    <h3
-      className={"openapi-markdown__details-summary-header-params"}
+    <details
+      style={{}}
+      className={"openapi-markdown__details mime"}
+      data-collapsed={false}
+      open={true}
     >
-      Path Parameters
-    </h3>
-  </summary><div>
-    <ul>
-      <ParamsItem
-        className={"paramsItem"}
-        param={{"name":"id","in":"path","required":true,"description":"ID del cliente del cual obtener la información","schema":{"type":"integer","example":55}}}
+      <summary
+        style={{}}
+        className={"openapi-markdown__details-summary-mime"}
       >
-        
-      </ParamsItem>
-    </ul>
-  </div>
-</details>
+        <h3
+          className={"openapi-markdown__details-summary-header-parameters"}
+        >
+          Path Parameters
+        </h3>
+      </summary>
+      <div style={{"textAlign":"left","marginLeft":"1rem"}}>
+        <div style={{"marginTop":"1rem","marginBottom":"1rem"}}>
+          Parámetros de ruta requeridos
+        </div>
+      </div>
+      <ul style={{"marginLeft":"1rem"}}>
+        <SchemaItem
+          collapsible={false}
+          name={"id"}
+          required={true}
+          schemaName={"integer"}
+          qualifierMessage={undefined}
+          schema={{"type":"integer","description":"ID del cliente del cual obtener la información","example":55}}
+        >
+          
+        </SchemaItem>
+      </ul>
+    </details>
+  </TabItem>
+</MimeTabs>
 
 <div>
 <ApiTabs>
