@@ -1,0 +1,187 @@
+---
+id: ver-reporte-finaciero
+title: "Ver Reporte Financiero"
+description: "Su propósito es obtener información detallada de un cliente incluyendo documentos, notas de venta, totales y deuda pendiente"
+sidebar_label: "Ver Reporte Financiero"
+hide_title: true
+hide_table_of_contents: true
+api: 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
+sidebar_class_name: "get api-method"
+info_path: facturador/clientes/introduccion
+custom_edit_url: null
+---
+
+import ApiTabs from "@theme/ApiTabs";
+import DiscriminatorTabs from "@theme/DiscriminatorTabs";
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import SecuritySchemes from "@theme/ApiExplorer/SecuritySchemes";
+import MimeTabs from "@theme/MimeTabs";
+import ParamsItem from "@theme/ParamsItem";
+import ResponseSamples from "@theme/ResponseSamples";
+import SchemaItem from "@theme/SchemaItem";
+import SchemaTabs from "@theme/SchemaTabs";
+import Heading from "@theme/Heading";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Ver Reporte Financiero"}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"get"}
+  path={"/api/customers/info/{id}"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+Su propósito es obtener información detallada de un cliente incluyendo documentos emitidos, notas de venta, totales consumidos, pagos realizados y deuda pendiente.
+
+***Ejemplo:***  
+ - **Método:** GET
+ - **URL:** https://empresa1.demo3pro6.ibu.pe/api/customers/info/55
+ - **TOKEN:** HOHYgwd4atPalTxqi2IIspythpLAU7eP239oByfjk9VuveiOpfUTm4Yg0Szt
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<details
+  style={{}}
+  className={"openapi-markdown__details"}
+  data-collapsed={false}
+  open={true}
+>
+  <summary
+    style={{}}
+    className={"openapi-markdown__details-summary"}
+  >
+    <h3
+      className={"openapi-markdown__details-summary-header-params"}
+    >
+      Path Parameters
+    </h3>
+  </summary><div>
+    <ul>
+      <ParamsItem
+        className={"paramsItem"}
+        param={{"name":"id","in":"path","required":true,"description":"ID del cliente del cual obtener la información","schema":{"type":"integer","example":55}}}
+      >
+        
+      </ParamsItem>
+    </ul>
+  </div>
+</details>
+
+<div>
+<ApiTabs>
+<TabItem label={"200"} value={"200"}>
+<div>
+
+Información del cliente obtenida exitosamente
+
+</div>
+
+<div>
+<MimeTabs className={"openapi-tabs__mime"} schemaType={"response"}>
+<TabItem label={"application/json"} value={"application/json"}>
+<SchemaTabs className={"openapi-tabs__schema"}>
+<TabItem label={"Schema"} value={"Schema"}>
+<details style={{}} className="openapi-markdown__details response" data-collapsed={false}>
+<summary style={{}}>
+<strong>Schema</strong>
+</summary>
+
+<div style={{"textAlign":"left","marginLeft":"1rem"}}>
+</div>
+<ul style={{"marginLeft":"1rem"}}>
+<SchemaItem collapsible={true} className={"schemaItem"}>
+<details style={{}}>
+<summary style={{}}>
+<strong>customer</strong>
+<span style={{"opacity":"0.6"}}> object</span>
+</summary>
+<div style={{"marginLeft":"1rem"}}>
+<div style={{"marginTop":"1rem","marginBottom":"1rem"}}>
+Información básica del cliente
+</div>
+<SchemaItem collapsible={false} name={"id"} required={false} schemaName={"integer"} qualifierMessage={undefined} schema={{"type":"integer","description":"ID del cliente","example":55}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"type"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","description":"Tipo de persona","example":"customers"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"number"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","description":"Número de documento","example":"72346556"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"name"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","description":"Nombre del cliente","example":"Pedro Diaz"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"email"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","nullable":true,"description":"Correo electrónico del cliente","example":"pedro@example.com"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"telephone"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","nullable":true,"description":"Teléfono del cliente","example":"954533737"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"address"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","nullable":true,"description":"Dirección del cliente","example":"Urb Sesquicentenario Vipol Callao"}}>
+</SchemaItem>
+<SchemaItem collapsible={true} className={"schemaItem"}>
+<details style={{}}>
+<summary style={{}}>
+<strong>identity_document_type</strong>
+<span style={{"opacity":"0.6"}}> object</span>
+</summary>
+<div style={{"marginLeft":"1rem"}}>
+<div style={{"marginTop":"1rem","marginBottom":"1rem"}}>
+Tipo de documento de identidad
+</div>
+<SchemaItem collapsible={false} name={"description"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","example":"DNI"}}>
+</SchemaItem>
+</div>
+</details>
+</SchemaItem>
+</div>
+</details>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"documents_count"} required={false} schemaName={"integer"} qualifierMessage={undefined} schema={{"type":"integer","description":"Cantidad total de documentos del cliente (facturas, boletas y notas de venta)","example":15}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"total_consumed"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","description":"Total consumido por el cliente (formateado)","example":"1,250.50"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"total_paid"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","description":"Total pagado por el cliente (formateado)","example":"1,000.00"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"pending_debt"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string","description":"Deuda pendiente del cliente (formateado)","example":"250.50"}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"documents"} required={false} schemaName={"object[]"} qualifierMessage={undefined} schema={{"type":"array","description":"Lista de documentos del cliente (facturas y boletas)","items":{"type":"object","properties":{"id":{"type":"integer","example":123},"series":{"type":"string","example":"F001"},"number":{"type":"string","example":"00000001"},"date_of_issue":{"type":"string","format":"date","example":"2023-12-01"},"total":{"type":"number","format":"float","example":150.5},"document_type_id":{"type":"string","example":"01"}}}}}>
+</SchemaItem>
+<SchemaItem collapsible={false} name={"sale_notes"} required={false} schemaName={"object[]"} qualifierMessage={undefined} schema={{"type":"array","description":"Lista de notas de venta del cliente","items":{"type":"object","properties":{"id":{"type":"integer","example":456},"series":{"type":"string","example":"NV01"},"number":{"type":"string","example":"00000001"},"date_of_issue":{"type":"string","format":"date","example":"2023-12-01"},"total":{"type":"number","format":"float","example":75.25}}}}}>
+</SchemaItem>
+</ul>
+</details>
+</TabItem>
+<TabItem label={"Example (from schema)"} value={"Example (from schema)"}>
+<ResponseSamples responseExample={"{\n  \"customer\": {\n    \"id\": 55,\n    \"type\": \"customers\",\n    \"number\": \"72346556\",\n    \"name\": \"Pedro Diaz\",\n    \"email\": \"pedro@example.com\",\n    \"telephone\": \"954533737\",\n    \"address\": \"Urb Sesquicentenario Vipol Callao\",\n    \"identity_document_type\": {\n      \"description\": \"DNI\"\n    }\n  },\n  \"documents_count\": 15,\n  \"total_consumed\": \"1,250.50\",\n  \"total_paid\": \"1,000.00\",\n  \"pending_debt\": \"250.50\",\n  \"documents\": [\n    {\n      \"id\": 123,\n      \"series\": \"F001\",\n      \"number\": \"00000001\",\n      \"date_of_issue\": \"2023-12-01\",\n      \"total\": 150.5,\n      \"document_type_id\": \"01\"\n    }\n  ],\n  \"sale_notes\": [\n    {\n      \"id\": 456,\n      \"series\": \"NV01\",\n      \"number\": \"00000001\",\n      \"date_of_issue\": \"2023-12-01\",\n      \"total\": 75.25\n    }\n  ]\n}"} language={"json"}>
+</ResponseSamples>
+</TabItem>
+</SchemaTabs>
+</TabItem>
+</MimeTabs>
+</div>
+</TabItem>
+<TabItem label={"404"} value={"404"}>
+<div>
+
+Cliente no encontrado
+
+</div>
+</TabItem>
+<TabItem label={"401"} value={"401"}>
+<div>
+
+No autorizado
+
+</div>
+</TabItem>
+</ApiTabs>
+</div>
