@@ -12,17 +12,17 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://manual.uio.la/',
+  url: 'https://andreblv.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/documentacion/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'fastura', // Usually your GitHub org/user name.
+  organizationName: 'andreblv', // Usually your GitHub org/user name.
   projectName: 'documentacion',
-
-  onBrokenLinks: 'throw',
+  deploymentBranch: 'gh-pages',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false,
@@ -48,7 +48,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/fastura/documentacion/tree/main/',
+            'https://github.com/andreblv/documentacion/tree/main/',
             
         },
         blog: false,

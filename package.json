@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build && echo manual.uio.la > ./build/CNAME",
+    "predeploy": "npm run build",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -36,7 +36,11 @@
     "docusaurus-theme-openapi-docs": "^4.3.1",
     "lucide-react": "^0.508.0",
     "micromark-extension-mdx-expression": "^3.0.0",
+<<<<<<< HEAD
     "plugin-image-zoom": "https://github.com/flexanalytics/plugin-image-zoom",
+=======
+    "plugin-image-zoom": "https://github.com/flexanalytics/plugin-image-zoom.git",
+>>>>>>> 5f01726c52257eee38a933f963df1bf6324c170b
     "prism-react-renderer": "^2.3.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -48,6 +52,7 @@
     "@docusaurus/tsconfig": "^3.8.0",
     "@docusaurus/types": "^3.8.0",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "sass": "^1.86.3",
     "sass-loader": "^16.0.5",
     "style-loader": "^4.0.0",
