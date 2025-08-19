@@ -42,4 +42,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 # Github Pages
 
-Clic here: [https://andreblv.github.io/documentacion/](https://andreblv.github.io/documentacion/).
+Clic here: [https://andreblv.github.io/documentacion/Pro7/clientes-api](https://andreblv.github.io/documentacion/Pro7/clientes-api).
