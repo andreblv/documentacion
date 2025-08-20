@@ -1,0 +1,49 @@
+---
+title: Actualizar Cliente (PATCH)
+version: Pro7
+sidebar_class_name: "patch api-method"
+---
+
+# Actualizar Cliente (PATCH)
+
+Permite actualizar **parcialmente** la información de un cliente existente.
+
+
+**Ejemplo:**
+- **Método:** PATCH
+- **URL:** `https://empresa1.demo3pro6.ibu.pe/api/customers/{id}`
+- **TOKEN:** `HOHYgwd4atPalTxqi2IIspythpLAU7eP239oByfjk9VuveiOpfUTm4Yg0Szt`
+
+
+**Request:**
+
+Body (application/json, solo los campos a modificar):
+
+```json
+{
+  "razon_social": "Nuevo nombre",
+  "telefono": "987654321"
+}
+```
+
+## Requesitos
+
+Body (application/json, solo los campos a modificar):
+
+```json
+{
+  "razon_social": "Nuevo nombre",
+  "telefono": "987654321"
+}
+```
+
+## Response
+
+```json
+{
+  "id": 1,
+  "razon_social": "Nuevo nombre",
+  "telefono": "987654321",
+  "estado": "activo"
+}
+```

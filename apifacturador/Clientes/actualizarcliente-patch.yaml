@@ -1,0 +1,56 @@
+openapi: 3.0.0
+info:
+  title: API Clientes
+  version: "1.0.0"
+paths:
+  /customers/{id}:
+    patch:
+      tags:
+        - Clientes
+      summary: Actualizar Cliente (PATCH)
+      description: Permite actualizar parcialmente la información de un cliente existente.
+      operationId: actualizarClientePatch
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID del cliente a actualizar parcialmente
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                razon_social:
+                  type: string
+                  example: "Nuevo nombre"
+                telefono:
+                  type: string
+                  example: "987654321"
+      responses:
+        "200":
+          description: Cliente actualizado parcialmente
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                    example: 1
+                  razon_social:
+                    type: string
+                    example: "Nuevo nombre"
+                  telefono:
+                    type: string
+                    example: "987654321"
+                  estado:
+                    type: string
+                    example: "activo"
+        "400":
+          description: Petición inválida
+        "404":
+          description: Cliente no encontrado
