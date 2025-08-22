@@ -3815,11 +3815,14 @@ commander@^10.0.0:
   resolved "https://registry.npmmirror.com/commander/-/commander-10.0.1.tgz"
   integrity sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==
 
+<<<<<<< HEAD
+=======
 commander@^13.0.0:
   version "13.1.0"
   resolved "https://registry.npmjs.org/commander/-/commander-13.1.0.tgz"
   integrity sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw==
 
+>>>>>>> 5683b6dccb962ba394187b26514d91d3c17fead8
 commander@^2.20.0, commander@2.20.3:
   version "2.20.3"
   resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
@@ -10237,7 +10240,11 @@ semver-diff@^4.0.0:
   dependencies:
     semver "^7.3.5"
 
+<<<<<<< HEAD
+semver@^6.3.1:
+=======
 semver@^6.0.0, semver@^6.3.1:
+>>>>>>> 5683b6dccb962ba394187b26514d91d3c17fead8
   version "6.3.1"
   resolved "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
